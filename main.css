@@ -20,18 +20,23 @@ div {
 button {
   width: 100px;
   height: 100px; 
-  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  background-color: #d8d9db;
 }
 
 button:active {
-color: #dd8d37;
+color: #bbbcbe;
+}
+button:hover {
+ background-color:#ebebeb;
+}
+button.fnc:active {
+backcolor: #dd8d37;
 }
 
-button:hover {
-  color: #dfb07e;
-}
-div .row  {
-  color: #df974c;
+button.fnc:hover {
+  background-color: #dfb07e;
 }
 
 div .result {
@@ -47,4 +52,7 @@ width: 200px;
 
 div .zero {
 width: 300px;
+}
+button.fnc {
+  background-color: #df974c;
 }
